@@ -8,6 +8,10 @@
 
 #import "JSMessagesViewController.h"
 
-@interface MBChatViewController : JSMessagesViewController
+@interface MBChatViewController : JSMessagesViewController <JSMessagesViewDataSource, JSMessagesViewDelegate>
+
+@property (strong, nonatomic) PFObject *chatRoom;
+
+
 
 @end

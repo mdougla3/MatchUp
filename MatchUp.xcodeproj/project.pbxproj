@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F04E67F1900DC7B00E7382F /* Tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F04E67E1900DC7B00E7382F /* Tiger.jpg */; };
+		1F04E6811900E3BB00E7382F /* defaultPrefsFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F04E6801900E3BB00E7382F /* defaultPrefsFile.plist */; };
+		1F93C0A318FF24D200207B56 /* MBTestUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F93C0A218FF24D200207B56 /* MBTestUser.m */; };
+		1F98D52718FF72EC002427E3 /* MBMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F98D52618FF72EC002427E3 /* MBMatchViewController.m */; };
+		1F98D52B18FF7437002427E3 /* MBMatchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F98D52A18FF7437002427E3 /* MBMatchesViewController.m */; };
+		1F98D52F18FF7956002427E3 /* MBChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F98D52E18FF7956002427E3 /* MBChatViewController.m */; };
 		1FC68BDB18ECF82700788135 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC68BDA18ECF82700788135 /* Foundation.framework */; };
 		1FC68BDD18ECF82700788135 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC68BDC18ECF82700788135 /* CoreGraphics.framework */; };
 		1FC68BDF18ECF82700788135 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC68BDE18ECF82700788135 /* UIKit.framework */; };
@@ -14,14 +20,19 @@
 		1FC68BE718ECF82700788135 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC68BE618ECF82700788135 /* main.m */; };
 		1FC68BEB18ECF82700788135 /* MBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC68BEA18ECF82700788135 /* MBAppDelegate.m */; };
 		1FC68BEE18ECF82700788135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC68BEC18ECF82700788135 /* Main.storyboard */; };
-		1FC68BF118ECF82700788135 /* MBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC68BF018ECF82700788135 /* MBFirstViewController.m */; };
-		1FC68BF418ECF82700788135 /* MBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC68BF318ECF82700788135 /* MBSecondViewController.m */; };
 		1FC68BF618ECF82700788135 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC68BF518ECF82700788135 /* Images.xcassets */; };
 		1FC68BFD18ECF82700788135 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC68BFC18ECF82700788135 /* XCTest.framework */; };
 		1FC68BFE18ECF82700788135 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC68BDA18ECF82700788135 /* Foundation.framework */; };
 		1FC68BFF18ECF82700788135 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC68BDE18ECF82700788135 /* UIKit.framework */; };
 		1FC68C0718ECF82700788135 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FC68C0518ECF82700788135 /* InfoPlist.strings */; };
 		1FC68C0918ECF82700788135 /* MatchUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC68C0818ECF82700788135 /* MatchUpTests.m */; };
+		1FC68C1418ECF8FA00788135 /* MBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC68C1318ECF8FA00788135 /* MBLoginViewController.m */; };
+		1FC68C1818ED04A300788135 /* MBConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC68C1718ED04A300788135 /* MBConstants.m */; };
+		1FC68C2018EDBDBC00788135 /* MBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC68C1F18EDBDBC00788135 /* MBHomeViewController.m */; };
+		1FC68C2418EDC04C00788135 /* MBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC68C2318EDC04C00788135 /* MBSettingsViewController.m */; };
+		1FC68C2818EDC1E900788135 /* MBEditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC68C2718EDC1E900788135 /* MBEditProfileViewController.m */; };
+		1FC68C2C18EDC3AC00788135 /* MBProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC68C2B18EDC3AC00788135 /* MBProfileViewController.m */; };
+		F41F9A85973E44A98FA3D415 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F14C4BEDF5114EFDBCAAEF53 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F04E67E1900DC7B00E7382F /* Tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tiger.jpg; sourceTree = "<group>"; };
+		1F04E6801900E3BB00E7382F /* defaultPrefsFile.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = defaultPrefsFile.plist; sourceTree = "<group>"; };
+		1F93C0A118FF24D200207B56 /* MBTestUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTestUser.h; sourceTree = "<group>"; };
+		1F93C0A218FF24D200207B56 /* MBTestUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTestUser.m; sourceTree = "<group>"; };
+		1F98D52518FF72EC002427E3 /* MBMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMatchViewController.h; sourceTree = "<group>"; };
+		1F98D52618FF72EC002427E3 /* MBMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMatchViewController.m; sourceTree = "<group>"; };
+		1F98D52918FF7437002427E3 /* MBMatchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBMatchesViewController.h; sourceTree = "<group>"; };
+		1F98D52A18FF7437002427E3 /* MBMatchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBMatchesViewController.m; sourceTree = "<group>"; };
+		1F98D52D18FF7956002427E3 /* MBChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBChatViewController.h; sourceTree = "<group>"; };
+		1F98D52E18FF7956002427E3 /* MBChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBChatViewController.m; sourceTree = "<group>"; };
 		1FC68BD718ECF82700788135 /* MatchUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC68BDA18ECF82700788135 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FC68BDC18ECF82700788135 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +67,26 @@
 		1FC68BE918ECF82700788135 /* MBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBAppDelegate.h; sourceTree = "<group>"; };
 		1FC68BEA18ECF82700788135 /* MBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBAppDelegate.m; sourceTree = "<group>"; };
 		1FC68BED18ECF82700788135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1FC68BEF18ECF82700788135 /* MBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBFirstViewController.h; sourceTree = "<group>"; };
-		1FC68BF018ECF82700788135 /* MBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBFirstViewController.m; sourceTree = "<group>"; };
-		1FC68BF218ECF82700788135 /* MBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBSecondViewController.h; sourceTree = "<group>"; };
-		1FC68BF318ECF82700788135 /* MBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBSecondViewController.m; sourceTree = "<group>"; };
 		1FC68BF518ECF82700788135 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1FC68BFB18ECF82700788135 /* MatchUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC68BFC18ECF82700788135 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1FC68C0418ECF82700788135 /* MatchUpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchUpTests-Info.plist"; sourceTree = "<group>"; };
 		1FC68C0618ECF82700788135 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FC68C0818ECF82700788135 /* MatchUpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchUpTests.m; sourceTree = "<group>"; };
+		1FC68C1218ECF8FA00788135 /* MBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLoginViewController.h; sourceTree = "<group>"; };
+		1FC68C1318ECF8FA00788135 /* MBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLoginViewController.m; sourceTree = "<group>"; };
+		1FC68C1618ED04A300788135 /* MBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBConstants.h; sourceTree = "<group>"; };
+		1FC68C1718ED04A300788135 /* MBConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBConstants.m; sourceTree = "<group>"; };
+		1FC68C1E18EDBDBC00788135 /* MBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBHomeViewController.h; sourceTree = "<group>"; };
+		1FC68C1F18EDBDBC00788135 /* MBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBHomeViewController.m; sourceTree = "<group>"; };
+		1FC68C2218EDC04C00788135 /* MBSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSettingsViewController.h; sourceTree = "<group>"; };
+		1FC68C2318EDC04C00788135 /* MBSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSettingsViewController.m; sourceTree = "<group>"; };
+		1FC68C2618EDC1E900788135 /* MBEditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBEditProfileViewController.h; sourceTree = "<group>"; };
+		1FC68C2718EDC1E900788135 /* MBEditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBEditProfileViewController.m; sourceTree = "<group>"; };
+		1FC68C2A18EDC3AC00788135 /* MBProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProfileViewController.h; sourceTree = "<group>"; };
+		1FC68C2B18EDC3AC00788135 /* MBProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProfileViewController.m; sourceTree = "<group>"; };
+		509C53ACC8F644DFBB4DD9C1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F14C4BEDF5114EFDBCAAEF53 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +97,7 @@
 				1FC68BDD18ECF82700788135 /* CoreGraphics.framework in Frameworks */,
 				1FC68BDF18ECF82700788135 /* UIKit.framework in Frameworks */,
 				1FC68BDB18ECF82700788135 /* Foundation.framework in Frameworks */,
+				F41F9A85973E44A98FA3D415 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +114,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F93C0A018FF24B100207B56 /* Create Parse User */ = {
+			isa = PBXGroup;
+			children = (
+				1F93C0A118FF24D200207B56 /* MBTestUser.h */,
+				1F93C0A218FF24D200207B56 /* MBTestUser.m */,
+			);
+			name = "Create Parse User";
+			sourceTree = "<group>";
+		};
+		1F98D52418FF72D7002427E3 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				1F98D52518FF72EC002427E3 /* MBMatchViewController.h */,
+				1F98D52618FF72EC002427E3 /* MBMatchViewController.m */,
+			);
+			name = Match;
+			sourceTree = "<group>";
+		};
+		1F98D52818FF741E002427E3 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				1F98D52918FF7437002427E3 /* MBMatchesViewController.h */,
+				1F98D52A18FF7437002427E3 /* MBMatchesViewController.m */,
+			);
+			name = Matches;
+			sourceTree = "<group>";
+		};
+		1F98D52C18FF7743002427E3 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				1F98D52D18FF7956002427E3 /* MBChatViewController.h */,
+				1F98D52E18FF7956002427E3 /* MBChatViewController.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
 		1FC68BCE18ECF82700788135 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +157,7 @@
 				1FC68C0218ECF82700788135 /* MatchUpTests */,
 				1FC68BD918ECF82700788135 /* Frameworks */,
 				1FC68BD818ECF82700788135 /* Products */,
+				509C53ACC8F644DFBB4DD9C1 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +177,7 @@
 				1FC68BDC18ECF82700788135 /* CoreGraphics.framework */,
 				1FC68BDE18ECF82700788135 /* UIKit.framework */,
 				1FC68BFC18ECF82700788135 /* XCTest.framework */,
+				F14C4BEDF5114EFDBCAAEF53 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,10 +188,15 @@
 				1FC68BE918ECF82700788135 /* MBAppDelegate.h */,
 				1FC68BEA18ECF82700788135 /* MBAppDelegate.m */,
 				1FC68BEC18ECF82700788135 /* Main.storyboard */,
-				1FC68BEF18ECF82700788135 /* MBFirstViewController.h */,
-				1FC68BF018ECF82700788135 /* MBFirstViewController.m */,
-				1FC68BF218ECF82700788135 /* MBSecondViewController.h */,
-				1FC68BF318ECF82700788135 /* MBSecondViewController.m */,
+				1FC68C1D18EDBDAF00788135 /* Home */,
+				1FC68C1518ECF90700788135 /* Login Credentials */,
+				1F98D52C18FF7743002427E3 /* Chat */,
+				1F98D52818FF741E002427E3 /* Matches */,
+				1FC68C2918EDC39400788135 /* Profile */,
+				1FC68C2118EDC02C00788135 /* Settings */,
+				1F98D52418FF72D7002427E3 /* Match */,
+				1F93C0A018FF24B100207B56 /* Create Parse User */,
+				1FC68C2518EDC1D400788135 /* EditProfile */,
 				1FC68BF518ECF82700788135 /* Images.xcassets */,
 				1FC68BE118ECF82700788135 /* Supporting Files */,
 			);
@@ -132,9 +207,12 @@
 			isa = PBXGroup;
 			children = (
 				1FC68BE218ECF82700788135 /* MatchUp-Info.plist */,
+				1F04E67E1900DC7B00E7382F /* Tiger.jpg */,
 				1FC68BE318ECF82700788135 /* InfoPlist.strings */,
 				1FC68BE618ECF82700788135 /* main.m */,
 				1FC68BE818ECF82700788135 /* MatchUp-Prefix.pch */,
+				1FC68C1618ED04A300788135 /* MBConstants.h */,
+				1FC68C1718ED04A300788135 /* MBConstants.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -157,6 +235,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1FC68C1518ECF90700788135 /* Login Credentials */ = {
+			isa = PBXGroup;
+			children = (
+				1FC68C1218ECF8FA00788135 /* MBLoginViewController.h */,
+				1FC68C1318ECF8FA00788135 /* MBLoginViewController.m */,
+			);
+			name = "Login Credentials";
+			sourceTree = "<group>";
+		};
+		1FC68C1D18EDBDAF00788135 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1FC68C1E18EDBDBC00788135 /* MBHomeViewController.h */,
+				1FC68C1F18EDBDBC00788135 /* MBHomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		1FC68C2118EDC02C00788135 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1FC68C2218EDC04C00788135 /* MBSettingsViewController.h */,
+				1FC68C2318EDC04C00788135 /* MBSettingsViewController.m */,
+				1F04E6801900E3BB00E7382F /* defaultPrefsFile.plist */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		1FC68C2518EDC1D400788135 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				1FC68C2618EDC1E900788135 /* MBEditProfileViewController.h */,
+				1FC68C2718EDC1E900788135 /* MBEditProfileViewController.m */,
+			);
+			name = EditProfile;
+			sourceTree = "<group>";
+		};
+		1FC68C2918EDC39400788135 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1FC68C2A18EDC3AC00788135 /* MBProfileViewController.h */,
+				1FC68C2B18EDC3AC00788135 /* MBProfileViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +288,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FC68C0C18ECF82700788135 /* Build configuration list for PBXNativeTarget "MatchUp" */;
 			buildPhases = (
+				17F5086D1C184795B1DFBFA8 /* Check Pods Manifest.lock */,
 				1FC68BD318ECF82700788135 /* Sources */,
 				1FC68BD418ECF82700788135 /* Frameworks */,
 				1FC68BD518ECF82700788135 /* Resources */,
+				52403D4969994B71ADF224EC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,8 +361,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FC68BF618ECF82700788135 /* Images.xcassets in Resources */,
+				1F04E6811900E3BB00E7382F /* defaultPrefsFile.plist in Resources */,
 				1FC68BE518ECF82700788135 /* InfoPlist.strings in Resources */,
 				1FC68BEE18ECF82700788135 /* Main.storyboard in Resources */,
+				1F04E67F1900DC7B00E7382F /* Tiger.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,14 +378,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17F5086D1C184795B1DFBFA8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52403D4969994B71ADF224EC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FC68BD318ECF82700788135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FC68BF118ECF82700788135 /* MBFirstViewController.m in Sources */,
-				1FC68BF418ECF82700788135 /* MBSecondViewController.m in Sources */,
+				1FC68C2018EDBDBC00788135 /* MBHomeViewController.m in Sources */,
 				1FC68BE718ECF82700788135 /* main.m in Sources */,
+				1F93C0A318FF24D200207B56 /* MBTestUser.m in Sources */,
+				1F98D52F18FF7956002427E3 /* MBChatViewController.m in Sources */,
+				1FC68C1418ECF8FA00788135 /* MBLoginViewController.m in Sources */,
+				1F98D52B18FF7437002427E3 /* MBMatchesViewController.m in Sources */,
+				1FC68C2C18EDC3AC00788135 /* MBProfileViewController.m in Sources */,
+				1FC68C1818ED04A300788135 /* MBConstants.m in Sources */,
+				1FC68C2818EDC1E900788135 /* MBEditProfileViewController.m in Sources */,
+				1F98D52718FF72EC002427E3 /* MBMatchViewController.m in Sources */,
+				1FC68C2418EDC04C00788135 /* MBSettingsViewController.m in Sources */,
 				1FC68BEB18ECF82700788135 /* MBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +549,7 @@
 		};
 		1FC68C0D18ECF82700788135 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509C53ACC8F644DFBB4DD9C1 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -393,6 +563,7 @@
 		};
 		1FC68C0E18ECF82700788135 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509C53ACC8F644DFBB4DD9C1 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -463,6 +634,7 @@
 				1FC68C0E18ECF82700788135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC68C0F18ECF82700788135 /* Build configuration list for PBXNativeTarget "MatchUpTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +643,7 @@
 				1FC68C1118ECF82700788135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

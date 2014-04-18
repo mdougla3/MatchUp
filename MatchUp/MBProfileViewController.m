@@ -10,6 +10,12 @@
 
 @interface MBProfileViewController ()
 
+@property (strong, nonatomic) IBOutlet UIImageView *profilePictureImageView;
+@property (strong, nonatomic) IBOutlet UILabel *locationLabel;
+@property (strong, nonatomic) IBOutlet UILabel *ageLabel;
+@property (strong, nonatomic) IBOutlet UILabel *statusLabel;
+@property (strong, nonatomic) IBOutlet UILabel *tagLineLabel;
+
 @end
 
 @implementation MBProfileViewController
@@ -27,6 +33,19 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    PFFile *pictureFile = self.photo[kMBPhotoPictureKey];
+    [pictureFile getDataInBackgroundWithBlock:^(NSData *data, NSError *error) {
+        self.profilePictureImageView.image = [UIImage imageWithData:data];
+    }];
+    
+    PFUser *user = self.photo[kMBPhotoUserKey];
+    self.locationLabel.text = user[kMBUserProfileKey][kMBUserProfileLocation];
+    self.ageLabel.text = [NSString stringWithFormat:@"%@", user[kMBUserProfileKey][kMBUserProfileAgeKey]];
+    self.statusLabel.text = user[kMBUserProfileKey][kMBUserProfileRelationshipStatusKey];
+    self.tagLineLabel.text = user[kMBUserTagLineKey];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

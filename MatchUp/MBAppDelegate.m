@@ -13,9 +13,22 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [Parse setApplicationId:@"AGRQ7OHeaQo0M2S4JSZp8FmMz83M4NU9gCfeOjyP"
+                  clientKey:@"Z2zcTDrvc1Okqzq8mhvZtbYGfyqFnyAY0vOWzGFE"];
+    [PFFacebookUtils initializeFacebook];
     return YES;
+    
+    NSString *defaultPrefsFile = [[NSBundle mainBundle]pathForResource:@"defaultPrefs" ofType:@"plist"];
+    NSDictionary *defaultPreferences = [NSDictionary dictionaryWithContentsOfFile:defaultPrefsFile];
+    [[NSUserDefaults standardUserDefaults]registerDefaults:defaultPreferences];
 }
-							
+
+-(BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication withSession:[PFFacebookUtils session]];
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -1,5 +1,5 @@
 //
-//  MBSecondViewController.h
+//  MBLoginViewController.h
 //  MatchUp
 //
 //  Created by Illinois Business on 4/2/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MBSecondViewController : UIViewController
+@interface MBLoginViewController : UIViewController
 
 @end
